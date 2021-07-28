@@ -153,6 +153,7 @@ img {
     left: 0%;
     width: 40%;
     cursor: pointer;
+	  border: 3px solid white;
   }
   .banner-area .apple-button{
     position: sticky;
@@ -160,6 +161,7 @@ img {
     left: 58%;
     width: 40%;
     cursor: pointer;
+	  border: 3px solid white;
     /* display: none; */
     
   }
