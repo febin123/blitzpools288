@@ -1579,7 +1579,7 @@ Banner Style
 /*start of review tab*/
 
 #review{
-  margin-top: -200px;
+  margin-top: -250px;
 }
 .rev-section{
   margin: auto;
@@ -1682,7 +1682,7 @@ Banner Style
   min-height: 100vh;
   width: 80%;
   margin: 0 auto;
-  margin-top: -200px;
+  margin-top: -250px;
   display: flex;
   flex-direction: column;
   align-items: center;
