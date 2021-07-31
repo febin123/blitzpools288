@@ -105,69 +105,140 @@ img {
 
 
 
-.banner-area{
+
+.content img{
    width: 100%;
-  height: 100vh;
-  background:url(/Image/Riyan_Desktop.jpg);
-  background-size: cover; 
+   margin-top: 20px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed; 
+  /* height: 100vh; */
+  /* background:url(/Image/Riyan_Desktop.jpg); */
+  /* background-size: cover;   */
   
-  /* background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat; background-size: cover; */
-  
+  /* height: 100vh;
+  width: 100%; 
+  background: url(/Image/Riyan_Desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; */
 }
 
-.banner-area .android-button{
+.content1 img{
+display: none;
+}
+
+#verticle-line{
+  width: 2px;
+  height: 46px;
+  background-color:black;
+}
+
+.banner-area .android-button h3{
+  position: absolute;
+  top: 35%;
+  left:70%;
+
+    font-weight: bold;
+  font-size: 18px;
+  
+
+}
+.banner-area .android-button .code{
+  position: absolute;
+  top: 40.5%;
+  left:67.5%;
+}
+.banner-area .android-button .enter-num{
   position: absolute;
   top: 40%;
-  left: 80%;
-  width: 15%;
-  cursor: pointer;
-  
-
+  left:70%;
 }
-.banner-area .apple-button{
+.banner-area .android-button .app-link{
   position: absolute;
-  top: 52%;
-  left: 80%;
-  width: 15%;
-  cursor: pointer;
+  top: 47%;
+  left:73%;
+}
+.banner-area .android-button .app-but{
+  position: absolute;
+  top: 46%;
+  left:70%;
+  width: 14%;
+}
+.banner-area .android-button .qr {
+  position: absolute;
+  top: 56%;
+  left:70%;
+  width: 100px;
   
+}
+.banner-area .android-button .qr-text {
+  position: absolute;
+  top: 62%;
+  left:78%;
+}
+.banner-area .info{
+  position: absolute;
+  height: 7%;
+  top: 91%;
+  left: 0;
+  width: 100%;
+  background: #fbad18;
+  color:black;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.6s;
+  z-index: 10000;
+
 
 }
+.banner-area .info p{
+  padding-right: 20px;
+}
+
 @media (max-width: 722px) {
-
-  .banner-area{
-
-  background: url(/Image/Riyan_Mobile.jpg);
-    /* background-color: #070707; */
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-	padding:0;
-	  margin-top: 50px;
+  .content img{
+    display: none;
   }
-  .banner-area .android-button{
-    position: sticky;
-    top: 90%;
+  .content1 img{
+    padding-top: 70px;
+    display: block;
+  }
+  .content1 .android-button1{
+    position:absolute;
+    top: 40%;
     left: 0%;
     width: 40%;
     cursor: pointer;
-	  border: 3px solid white;
+    /* border: 3px solid white; */
+    
   }
-  .banner-area .apple-button{
-    position: sticky;
-    top: 90%;
+  .content1 .apple-button1{
+    position:absolute;
+    top: 40%;
     left: 60%;
     width: 40%;
     cursor: pointer;
-	  border: 3px solid white;
-    /* display: none; */
+    /* border: 2px solid white; */
+    
+  }
+  
+
+  .banner-area .android-button{
+  display: none;
+  }
+  .banner-area .apple-button{
+  display: none;
     
   }
 
 
 }
+
+
+
 
 
 
@@ -1480,6 +1551,7 @@ Banner Style
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
   margin: 2px;
+	text-align: center;
 
 }
 .internalcontainerL, .internalcontainerM, .internalcontainerR h4{
