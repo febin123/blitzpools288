@@ -200,6 +200,64 @@ display: none;
 }
 
 @media (max-width: 722px) {
+  .banner-area .info{
+  height: 7.5%;
+  top: 56.5%;
+  }
+  .info .pic-2, .pic-3, .pic-1{
+    padding-left: 35px;
+    padding-top: 6.5px;
+  }
+  .info .text-2,.h5-2{
+    padding-left: 10px;
+    padding-top: 6.5px;
+  }
+  .info .text-1{
+    padding-left: 25px;
+    padding-top: 7.5px;
+  }
+  .info .text-3{
+    padding-left: 10px;
+    padding-top: 7.5px;
+    
+    white-space: nowrap;
+  }
+  .info .h5-3,.h5-2,.h5-1{
+    font-size: 15px;
+    padding-left: 30px;
+    white-space: nowrap;
+    padding-top: 7.5px;
+    
+  }
+  /* .info .text-3{
+    padding-right: 40px;
+  } */
+
+  .banner-area .android-button h3, .banner-area .android-button .qr, .banner-area .android-button .qr-text{
+    display: none;
+  }
+  .banner-area .android-button .app-but, .banner-area .android-button .app-link{
+    display: none;
+  }
+  .banner-area .android-button .enter-num,.banner-area .android-button .code
+  .content img, .banner-area .android-button h3{
+    display: none;
+  }
+ 
+  .content1 .download-but{
+    position: absolute;
+    top: 40%;
+    left:25%;
+    width: 50%;
+  }
+  .content1 .down-link{
+    position: absolute;
+  top: 50%;
+  left:35%;
+  text-decoration: none;
+  color: black;
+  display: block;
+  }
   .content img{
     display: none;
   }
@@ -207,6 +265,7 @@ display: none;
     padding-top: 70px;
     display: block;
   }
+  
   .content1 .android-button1{
     position:absolute;
     top: 40%;
@@ -234,7 +293,6 @@ display: none;
   display: none;
     
   }
-
 
 }
 
